@@ -1,8 +1,10 @@
 * {
     margin: 0;
+    font-family: sans-serif;
 }
 body{
     height:100%;
+    
 }
 
 nav li{
@@ -17,15 +19,36 @@ ul{
     
 }
 
+button, .logo, .mainText{
+    color: #F9FAF8;
+
+}
+button{
+    background-color: #3882F6;
+    padding: .7em 2em;
+    border: #3882F6;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+nav a, .secondaryText, .right{
+    color: #e5e7eb;
+
+}
+
 nav a{
     text-decoration: none;
-    color: #e5e7eb;
+
 }
+
+
 header{
     background-color:#1f2937 ;
-    color: #F9FAF8;
-    padding: 10px 20%;
+    padding: 10px 15%;
 }
+
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -33,6 +56,21 @@ nav{
     padding: 0 0 8% 0;
     
 }
+.logo{
+    font-size: 24px;
+}
+.mainText{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+.secondaryText{
+    font-size: 18px;
+    margin: .4em 0;
+}
+
+
 .content{
     display: flex;
     gap: 24px;
@@ -40,6 +78,8 @@ nav{
 }
 .content .left{
     flex:1;
+ 
+
 }
 .content .right{
     flex:1 1 auto;
@@ -47,7 +87,6 @@ nav{
     align-self: center;
     text-align: center;
     background-color: gray;
-    border: 1px red solid;
     display: block;
-    padding: 5em;
+    padding: 7em 2em;
 }
